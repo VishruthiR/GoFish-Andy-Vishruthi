@@ -21,7 +21,7 @@ class Player
 public:
     Player();
 
-    Player(string name) {
+    Player(string name){
         myName = name;
     }
 
@@ -31,11 +31,6 @@ public:
 
     void addCard(Card c);  //adds a card to the hand
     void bookCards(Card c1, Card c2);
-
-    //OPTIONAL
-    // comment out if you decide to not use it
-    //Does the player have a card with the same rank as c in her hand?
-    bool rankInHand(Card c) const;
 
     //uses some strategy to choose one card from the player's
     //hand so they can say "Do you have a 4?"
