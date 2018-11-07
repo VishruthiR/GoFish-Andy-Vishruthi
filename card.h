@@ -32,7 +32,6 @@ class Card
 {
 public:
 
-
     enum Suit {spades, hearts, diamonds, clubs};
 
     Card();          // default, ace of spades

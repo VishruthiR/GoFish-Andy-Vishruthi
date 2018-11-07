@@ -19,8 +19,7 @@
 #include "card.h"
 
 
-class Deck
-{
+class Deck {
     static const int SIZE = 52;
 
 public:
