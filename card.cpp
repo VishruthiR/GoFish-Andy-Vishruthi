@@ -16,8 +16,26 @@ Card::Card(int rank, Suit s) {
 
 string Card::toString() const {
     string name = "";
-    name += rankString(myRank);
-    name += suitString(mySuit);
+    if (myRank == 1) {
+        name += 'A';
+    } else if (myRank == 11) {
+        name += 'J';
+    } else if (myRank == 12) {
+        name += 'Q';
+    } else if (myRank == 13) {
+        name += 'K';
+    } else {
+        name += to_string(myRank);
+    }
+    if (mySuit == spades) {
+        name += 's';
+    } else if (mySuit == hearts) {
+        name += 'h';
+    } else if (mySuit == diamonds) {
+        name += 'd';
+    } else { //my name == clubs
+        name += 'c';
+    }
     return name;
 }
 
@@ -33,13 +51,13 @@ int Card::getRank() const {
 string Card::suitString(Card::Suit s) const {
     string suit = "";
     if (s == spades) {
-        suit += 's';
+        suit = "Spades";
     } else if (s == hearts) {
-        suit += 'h';
+        suit = "Hearts";
     } else if (s == diamonds) {
-        suit += 'd';
+        suit = "Diamonds";
     } else { //my Suit == clubs
-        suit += 'c';
+        suit = "Clubs";
     }
     return suit;
 }
@@ -47,16 +65,35 @@ string Card::suitString(Card::Suit s) const {
 string Card::rankString(int r) const {
     string rank = "";
     if (r == 1) {
-        rank += 'A';
+        rank = "Aces";
     } else if (r == 11) {
-        rank += 'J';
+        rank = "Jacks";
     } else if (r == 12) {
-        rank += 'Q';
+        rank = "Queens";
     } else if (r == 13) {
-        rank += 'K';
-    } else {
-        rank += to_string(myRank);
+        rank = "Kings";
+    } else if (r == 1) {
+        rank = "Ones";
+    } else if (r == 2) {
+        rank = "Twos";
+    } else if (r == 3) {
+        rank = "Threes";
+    } else if (r == 4) {
+        rank = "Fours";
+    } else if (r == 5) {
+        rank = "Fives";
+    } else if (r == 6) {
+        rank = "Sixes";
+    } else if (r == 7) {
+        rank = "Sevens";
+    } else if (r == 8) {
+        rank = "Eights";
+    } else if (r == 9) {
+        rank = "Nines";
+    } else if (r == 10) {
+        rank = "Tens";
     }
+
     return rank;
 }
 

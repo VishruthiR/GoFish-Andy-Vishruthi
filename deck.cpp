@@ -6,13 +6,13 @@
 Deck::Deck() {
     Card c;
     for (int i = 1; i <= 13; i++) {
-        Card c(i, c.spades);
+        c = Card(i, c.spades);
         myCards[(i-1)*4+0] = c;
-        Card c(i, c.hearts);
+        c = Card(i, c.hearts);
         myCards[(i-1)*4+1] = c;
-        Card c(i, c.clubs);
+        c = Card(i, c.clubs);
         myCards[(i-1)*4+2] = c;
-        Card c(i, c.diamonds);
+        c = Card(i, c.diamonds);
         myCards[(i-1)*4+3] = c;
     }
     myIndex = 0;

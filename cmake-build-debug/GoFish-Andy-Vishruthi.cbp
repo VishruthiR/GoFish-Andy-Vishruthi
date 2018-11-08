@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="GoFish">
-				<Option output="/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/cmake-build-debug/GoFish" prefix_auto="0" extension_auto="0"/>
+			<Target title="go_fish.cpp">
+				<Option output="/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/cmake-build-debug/go_fish.cpp" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -51,14 +51,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/cmake-build-debug/Makefile&quot;  VERBOSE=1 GoFish"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/cmake-build-debug/Makefile&quot;  VERBOSE=1 go_fish.cpp"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="GoFish/fast">
-				<Option output="/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/cmake-build-debug/GoFish" prefix_auto="0" extension_auto="0"/>
+			<Target title="go_fish.cpp/fast">
+				<Option output="/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/cmake-build-debug/go_fish.cpp" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -71,7 +71,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/cmake-build-debug/Makefile&quot;  VERBOSE=1 GoFish/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/cmake-build-debug/Makefile&quot;  VERBOSE=1 go_fish.cpp/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -79,25 +79,22 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/card.cpp">
-			<Option target="GoFish"/>
+			<Option target="go_fish.cpp"/>
 		</Unit>
 		<Unit filename="/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/card.h">
-			<Option target="GoFish"/>
+			<Option target="go_fish.cpp"/>
 		</Unit>
 		<Unit filename="/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/deck.cpp">
-			<Option target="GoFish"/>
+			<Option target="go_fish.cpp"/>
 		</Unit>
 		<Unit filename="/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/deck.h">
-			<Option target="GoFish"/>
-		</Unit>
-		<Unit filename="/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/go_fish.cpp">
-			<Option target="GoFish"/>
+			<Option target="go_fish.cpp"/>
 		</Unit>
 		<Unit filename="/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/player.cpp">
-			<Option target="GoFish"/>
+			<Option target="go_fish.cpp"/>
 		</Unit>
 		<Unit filename="/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/player.h">
-			<Option target="GoFish"/>
+			<Option target="go_fish.cpp"/>
 		</Unit>
 		<Unit filename="/Users/vishruthi/CLionProjects/GoFish-Andy-Vishruthi/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

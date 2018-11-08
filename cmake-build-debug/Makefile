@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named GoFish
+# Target rules for targets named go_fish.cpp
 
 # Build rule for target.
-GoFish: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 GoFish
-.PHONY : GoFish
+go_fish.cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 go_fish.cpp
+.PHONY : go_fish.cpp
 
 # fast build rule for target.
-GoFish/fast:
-	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/build
-.PHONY : GoFish/fast
+go_fish.cpp/fast:
+	$(MAKE) -f CMakeFiles/go_fish.cpp.dir/build.make CMakeFiles/go_fish.cpp.dir/build
+.PHONY : go_fish.cpp/fast
 
 card.o: card.cpp.o
 
@@ -129,7 +129,7 @@ card.o: card.cpp.o
 
 # target to build an object file
 card.cpp.o:
-	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/card.cpp.o
+	$(MAKE) -f CMakeFiles/go_fish.cpp.dir/build.make CMakeFiles/go_fish.cpp.dir/card.cpp.o
 .PHONY : card.cpp.o
 
 card.i: card.cpp.i
@@ -138,7 +138,7 @@ card.i: card.cpp.i
 
 # target to preprocess a source file
 card.cpp.i:
-	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/card.cpp.i
+	$(MAKE) -f CMakeFiles/go_fish.cpp.dir/build.make CMakeFiles/go_fish.cpp.dir/card.cpp.i
 .PHONY : card.cpp.i
 
 card.s: card.cpp.s
@@ -147,7 +147,7 @@ card.s: card.cpp.s
 
 # target to generate assembly for a file
 card.cpp.s:
-	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/card.cpp.s
+	$(MAKE) -f CMakeFiles/go_fish.cpp.dir/build.make CMakeFiles/go_fish.cpp.dir/card.cpp.s
 .PHONY : card.cpp.s
 
 deck.o: deck.cpp.o
@@ -156,7 +156,7 @@ deck.o: deck.cpp.o
 
 # target to build an object file
 deck.cpp.o:
-	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/deck.cpp.o
+	$(MAKE) -f CMakeFiles/go_fish.cpp.dir/build.make CMakeFiles/go_fish.cpp.dir/deck.cpp.o
 .PHONY : deck.cpp.o
 
 deck.i: deck.cpp.i
@@ -165,7 +165,7 @@ deck.i: deck.cpp.i
 
 # target to preprocess a source file
 deck.cpp.i:
-	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/deck.cpp.i
+	$(MAKE) -f CMakeFiles/go_fish.cpp.dir/build.make CMakeFiles/go_fish.cpp.dir/deck.cpp.i
 .PHONY : deck.cpp.i
 
 deck.s: deck.cpp.s
@@ -174,35 +174,8 @@ deck.s: deck.cpp.s
 
 # target to generate assembly for a file
 deck.cpp.s:
-	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/deck.cpp.s
+	$(MAKE) -f CMakeFiles/go_fish.cpp.dir/build.make CMakeFiles/go_fish.cpp.dir/deck.cpp.s
 .PHONY : deck.cpp.s
-
-go_fish.o: go_fish.cpp.o
-
-.PHONY : go_fish.o
-
-# target to build an object file
-go_fish.cpp.o:
-	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/go_fish.cpp.o
-.PHONY : go_fish.cpp.o
-
-go_fish.i: go_fish.cpp.i
-
-.PHONY : go_fish.i
-
-# target to preprocess a source file
-go_fish.cpp.i:
-	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/go_fish.cpp.i
-.PHONY : go_fish.cpp.i
-
-go_fish.s: go_fish.cpp.s
-
-.PHONY : go_fish.s
-
-# target to generate assembly for a file
-go_fish.cpp.s:
-	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/go_fish.cpp.s
-.PHONY : go_fish.cpp.s
 
 player.o: player.cpp.o
 
@@ -210,7 +183,7 @@ player.o: player.cpp.o
 
 # target to build an object file
 player.cpp.o:
-	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/player.cpp.o
+	$(MAKE) -f CMakeFiles/go_fish.cpp.dir/build.make CMakeFiles/go_fish.cpp.dir/player.cpp.o
 .PHONY : player.cpp.o
 
 player.i: player.cpp.i
@@ -219,7 +192,7 @@ player.i: player.cpp.i
 
 # target to preprocess a source file
 player.cpp.i:
-	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/player.cpp.i
+	$(MAKE) -f CMakeFiles/go_fish.cpp.dir/build.make CMakeFiles/go_fish.cpp.dir/player.cpp.i
 .PHONY : player.cpp.i
 
 player.s: player.cpp.s
@@ -228,7 +201,7 @@ player.s: player.cpp.s
 
 # target to generate assembly for a file
 player.cpp.s:
-	$(MAKE) -f CMakeFiles/GoFish.dir/build.make CMakeFiles/GoFish.dir/player.cpp.s
+	$(MAKE) -f CMakeFiles/go_fish.cpp.dir/build.make CMakeFiles/go_fish.cpp.dir/player.cpp.s
 .PHONY : player.cpp.s
 
 # Help Target
@@ -239,16 +212,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... GoFish"
+	@echo "... go_fish.cpp"
 	@echo "... card.o"
 	@echo "... card.i"
 	@echo "... card.s"
 	@echo "... deck.o"
 	@echo "... deck.i"
 	@echo "... deck.s"
-	@echo "... go_fish.o"
-	@echo "... go_fish.i"
-	@echo "... go_fish.s"
 	@echo "... player.o"
 	@echo "... player.i"
 	@echo "... player.s"

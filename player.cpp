@@ -11,8 +11,16 @@
 #include <ctime>
 #include "player.h"
 
+using namespace std;
 
-Player::Player() {}
+
+Player::Player(){
+    myName = "";
+}
+
+Player::Player(string name) {
+   myName = name;
+}
 
 void Player::addCard(Card c) {
     myHand.push_back(c);
@@ -28,9 +36,9 @@ void Player::bookCards(Card c1, Card c2) {
 }
 
 Card Player::chooseCardFromHand() const {
-    unsigned int currentTime = (unsigned)time(0);
-    srand(currentTime);
-    int randNum = rand() % 5;
+    //unsigned int currentTime = (unsigned)time(0);
+    //srand(currentTime);
+    int randNum = rand() % myHand.size();
     return myHand[randNum];
 }
 
@@ -44,36 +52,45 @@ bool Player::cardInHand(Card c) const {
 }
 
 int Player::getBookSize() const {
-    return myBook.size()/2;
+    return myBook.size();
 }
 
 int Player::getHandSize() const {
     return myHand.size();
 }
 
-bool Player::checkHandForPair(Card &c1, Card &c2) {}
+bool Player::checkHandForPair(Card &c1, Card &c2) {
+    for(int i = 0; i < myHand.size()-1; i++){
+        for(int j = i+1; j < myHand.size(); j++){
+            if(myHand[i] == myHand[j]){
+                c1 = myHand[i];
+                c2 = myHand[j];
+                return true;
+            }
+        }
+    }
+    return false;
+}
 
 string Player::showBooks() const {
     string book;
-    for(int i = 0; i < myBook.size(), i++){
-        book = myBook[i].toString() + "   ";
+    for(int i = 0; i < myBook.size(); i++){
+        book = book + myBook[i].toString() + "   ";
     }
     return book;
 }
 
-}
-
 string Player::showHand() const {
     string hand;
-    for(int i = 0; i < myHand.size(), i++){
-        hand += myHand[i].toString();
+    for(int i = 0; i < myHand.size(); i++){
+        hand = hand + myHand[i].toString() + "   ";
     }
     return hand;
 }
 
 bool Player ::sameRankInHand(Card c) const {
-    for(int i = 1; i < myHand.size(); i++){
-        if (myHand[i].getRank() == myHand[i-1].getRank()){
+    for(int i = 0; i < myHand.size(); i++){
+        if (myHand[i].getRank() == c.getRank()){
             return true;
         }
     }
