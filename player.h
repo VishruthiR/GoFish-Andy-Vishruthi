@@ -51,7 +51,8 @@ public:
     // comment out if you decide to not use it
     //this function will check a players hand for a pair.
     //If a pair is found, it returns true and populates the two variables with the cards tha make the pair.
-
+Card c1;
+Card c2;
     bool checkHandForPair(Card &c1, Card &c2);
 
     //OPTIONAL
