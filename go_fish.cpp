@@ -26,7 +26,6 @@ int main(int argc, char *argv[]){
     
     for (int i = 0; i < 7; i++) {
         Andy.addCard(deck.dealCard());
-        //fout << Andy.showHand() << endl << endl;
         Vish.addCard(deck.dealCard());
     }
 
@@ -34,38 +33,48 @@ int main(int argc, char *argv[]){
     Player* p1 = &Andy;
     Player* p2 = &Vish;
     int i = 0;
+
     while(p1->getBookSize() + p2->getBookSize() < 52) {
+
         if (i % 2 == 0) turn(*p1, *p2, deck, fout);
         else turn(*p2, *p1, deck, fout);
-        fout << "Andy's book size: " << Andy.getBookSize() << endl;
-        fout << "Andy's book: " << Andy.showBooks() << endl;
-        fout << "Vish's book size: " << Vish.getBookSize() << endl;
-        fout << "Vish's book: " << Vish.showBooks() << endl;
+        fout << endl << "Andy's book size: " << Andy.getBookSize() << endl;
+        fout << "Andy's book: " << Andy.showBooks() << endl << endl;
         fout << "Andy's hand size: " << Andy.getHandSize() << endl;
         fout << "Andy's hand: " << Andy.showHand() << endl;
+        fout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+        fout << "Vish's book size: " << Vish.getBookSize() << endl;
+        fout << "Vish's book: " << Vish.showBooks() << endl << endl;
         fout << "Vish's hand size: " << Vish.getHandSize() << endl;
-        fout << "Vish's hand: " << Vish.showHand() << endl;
-        fout << "End of " << p1->getName() << "s, turn" << endl << endl;
+        fout << "Vish's hand: " << Vish.showHand() << endl << endl;
+        if (i % 2 == 0){
+            fout << "-------------------End of " << p1->getName() << "'s turn-------------------" << endl << endl;
+        }
+        else{
+             fout << "-------------------End of " << p2->getName() << "'s turn-------------------" << endl << endl;
+        }
+        
         i++;
     }
-
-    fout << "THE GAME IS OVER" << endl; 
+    fout << endl << endl << endl << endl << "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" << endl;
+    fout << "-----------------------------------------------------------G A M E O V E R-----------------------------------------------------" << endl; 
+    fout << endl << "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" << endl;
     if (p1->getBookSize() > p2->getBookSize()) {
-        fout << p1->getName() << " is the WINNNER" << endl;
+        fout << p1->getName() << " is the WINNER yuhhhh boiiii" << endl;
     } else if (p1->getBookSize() < p2->getBookSize()) {
-        fout << p1->getName() << " is the Winner" << endl;
+        fout << p1->getName() << " is the WINNER YAAAAASSS" << endl;
     } else {
-        fout << "TIE GAME" << endl;
+        fout << "TIE GAME bb" << endl;
     }
-    
+    fout << "C(◉‿◉)つ" << endl;
 }
 
 void turn(Player& p1, Player& p2, Deck& deck, ofstream& fout){
-    fout << p1.getName() << " is checking for pairs" << endl;
+    fout << "------------------Start of " << p1.getName() << "'s turn------------------" << endl << endl;
     makePairs(p1);
     int handSize = p1.getHandSize();
     if (handSize == 0){
-        fout << "No Cards in Hand -  Go Fish" << endl;
+        fout << "No Cards in Hand -  GO FISH (^.^)" << endl;
         if (deck.size() == 0) {
             fout << " No more cards left" << endl;
             return;
@@ -73,7 +82,7 @@ void turn(Player& p1, Player& p2, Deck& deck, ofstream& fout){
         gofish(p1, deck);
         return;
     }
-    fout << handSize << " handsize" << endl;
+
     Card chosenCard = p1.chooseCardFromHand();
     fout << p1.getName() << " asks - Do you have any " << chosenCard.rankString(chosenCard.getRank()) <<endl;
 
@@ -104,7 +113,7 @@ void turn(Player& p1, Player& p2, Deck& deck, ofstream& fout){
         fout << p1.showHand() << endl;
     } 
     else {
-        fout << " GO FISH " << endl;
+        fout << " GO FISH (^.^) " << endl;
         gofish(p1, deck);
     }
 
