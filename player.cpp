@@ -25,9 +25,17 @@ Player::Player(string name) {
 void Player::addCard(Card c) {
     myHand.push_back(c);
 }
+
 Card Player::removeCardFromHand(Card c) {
-    myHand.erase(find(myHand.begin(), myHand.end(), c));
-    return c;
+    Card tmp;
+    for (int i = 0; i < myHand.size(); i++) {
+        if (myHand[i].toString() == c.toString()) {
+            tmp = myHand[i];
+            myHand.erase(myHand.begin()+i);
+            return tmp;
+        }
+    }
+    return tmp;
 }
 
 void Player::bookCards(Card c1, Card c2) {
@@ -36,19 +44,15 @@ void Player::bookCards(Card c1, Card c2) {
 }
 
 Card Player::chooseCardFromHand() const {
-    //unsigned int currentTime = (unsigned)time(0);
-    //srand(currentTime);
     int randNum = rand() % myHand.size();
     return myHand[randNum];
 }
 
 bool Player::cardInHand(Card c) const {
-    if(find(myHand.begin(),myHand.end(),c) != myHand.end()){
-        return true;
+    for (int i = 0; i < myHand.size(); i++) {
+        if (myHand[i] == c) return true;
     }
-    else{
-        return false;
-    }
+    return false;
 }
 
 int Player::getBookSize() const {
@@ -60,9 +64,10 @@ int Player::getHandSize() const {
 }
 
 bool Player::checkHandForPair(Card &c1, Card &c2) {
+    if (myHand.size() < 2) return false;
     for(int i = 0; i < myHand.size()-1; i++){
         for(int j = i+1; j < myHand.size(); j++){
-            if(myHand[i] == myHand[j]){
+            if(myHand[i].getRank() == myHand[j].getRank()){
                 c1 = myHand[i];
                 c2 = myHand[j];
                 return true;
@@ -96,4 +101,3 @@ bool Player ::sameRankInHand(Card c) const {
     }
     return false;
 }
-

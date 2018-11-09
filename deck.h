@@ -32,6 +32,8 @@ public:
 
     int  size() const; // # cards left in the deck
 
+   // ~Deck(){}
+
 private:
 
     Card myCards[SIZE];

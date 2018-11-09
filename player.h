@@ -24,9 +24,8 @@ public:
     Player(string name);
 
     string getName() const {
-       return myName;
+        return myName;
     }
-    
 
     void addCard(Card c);  //adds a card to the hand
     void bookCards(Card c1, Card c2);
@@ -51,8 +50,6 @@ public:
     // comment out if you decide to not use it
     //this function will check a players hand for a pair.
     //If a pair is found, it returns true and populates the two variables with the cards tha make the pair.
-Card c1;
-Card c2;
     bool checkHandForPair(Card &c1, Card &c2);
 
     //OPTIONAL
@@ -62,6 +59,7 @@ Card c2;
 
     bool sameRankInHand(Card c) const;
 
+    //~Player(){}
 
 private:
 

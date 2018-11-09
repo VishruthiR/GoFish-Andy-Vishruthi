@@ -1,0 +1,738 @@
+Andy is checking for pairs
+5 handsize
+Andy asks - Do you have any Queens
+Vish says - Yes! Here you go
+Andy books the 12
+Jd   9h   2d   7h   
+Andy's book size: 4
+Andy's book: 5c   5h   Qc   Qh   
+Vish's book size: 0
+Vish's book: 
+Andy's hand size: 4
+Andy's hand: Jd   9h   2d   7h   
+Vish's hand size: 6
+Vish's hand: 10s   Kd   4c   9c   Ah   10d   
+End of Andys, turn
+
+Vish is checking for pairs
+4 handsize
+Vish asks - Do you have any Kings
+Andy says -  GO FISH 
+Andy's book size: 4
+Andy's book: 5c   5h   Qc   Qh   
+Vish's book size: 2
+Vish's book: 10s   10d   
+Andy's hand size: 4
+Andy's hand: Jd   9h   2d   7h   
+Vish's hand size: 5
+Vish's hand: Kd   4c   9c   Ah   3s   
+End of Andys, turn
+
+Andy is checking for pairs
+4 handsize
+Andy asks - Do you have any Jacks
+Vish says -  GO FISH 
+Andy's book size: 4
+Andy's book: 5c   5h   Qc   Qh   
+Vish's book size: 2
+Vish's book: 10s   10d   
+Andy's hand size: 5
+Andy's hand: Jd   9h   2d   7h   10h   
+Vish's hand size: 5
+Vish's hand: Kd   4c   9c   Ah   3s   
+End of Andys, turn
+
+Vish is checking for pairs
+5 handsize
+Vish asks - Do you have any Fours
+Andy says -  GO FISH 
+Andy's book size: 4
+Andy's book: 5c   5h   Qc   Qh   
+Vish's book size: 2
+Vish's book: 10s   10d   
+Andy's hand size: 5
+Andy's hand: Jd   9h   2d   7h   10h   
+Vish's hand size: 6
+Vish's hand: Kd   4c   9c   Ah   3s   7d   
+End of Andys, turn
+
+Andy is checking for pairs
+5 handsize
+Andy asks - Do you have any Jacks
+Vish says -  GO FISH 
+Andy's book size: 4
+Andy's book: 5c   5h   Qc   Qh   
+Vish's book size: 2
+Vish's book: 10s   10d   
+Andy's hand size: 6
+Andy's hand: Jd   9h   2d   7h   10h   Ks   
+Vish's hand size: 6
+Vish's hand: Kd   4c   9c   Ah   3s   7d   
+End of Andys, turn
+
+Vish is checking for pairs
+6 handsize
+Vish asks - Do you have any Aces
+Andy says -  GO FISH 
+Andy's book size: 4
+Andy's book: 5c   5h   Qc   Qh   
+Vish's book size: 2
+Vish's book: 10s   10d   
+Andy's hand size: 6
+Andy's hand: Jd   9h   2d   7h   10h   Ks   
+Vish's hand size: 7
+Vish's hand: Kd   4c   9c   Ah   3s   7d   3d   
+End of Andys, turn
+
+Andy is checking for pairs
+6 handsize
+Andy asks - Do you have any Jacks
+Vish says -  GO FISH 
+Andy's book size: 4
+Andy's book: 5c   5h   Qc   Qh   
+Vish's book size: 2
+Vish's book: 10s   10d   
+Andy's hand size: 7
+Andy's hand: Jd   9h   2d   7h   10h   Ks   6s   
+Vish's hand size: 7
+Vish's hand: Kd   4c   9c   Ah   3s   7d   3d   
+End of Andys, turn
+
+Vish is checking for pairs
+5 handsize
+Vish asks - Do you have any Aces
+Andy says -  GO FISH 
+Andy's book size: 4
+Andy's book: 5c   5h   Qc   Qh   
+Vish's book size: 4
+Vish's book: 10s   10d   3s   3d   
+Andy's hand size: 7
+Andy's hand: Jd   9h   2d   7h   10h   Ks   6s   
+Vish's hand size: 6
+Vish's hand: Kd   4c   9c   Ah   7d   3c   
+End of Andys, turn
+
+Andy is checking for pairs
+7 handsize
+Andy asks - Do you have any Twos
+Vish says -  GO FISH 
+Andy's book size: 4
+Andy's book: 5c   5h   Qc   Qh   
+Vish's book size: 4
+Vish's book: 10s   10d   3s   3d   
+Andy's hand size: 8
+Andy's hand: Jd   9h   2d   7h   10h   Ks   6s   Js   
+Vish's hand size: 6
+Vish's hand: Kd   4c   9c   Ah   7d   3c   
+End of Andys, turn
+
+Vish is checking for pairs
+6 handsize
+Vish asks - Do you have any Threes
+Andy says -  GO FISH 
+Andy's book size: 4
+Andy's book: 5c   5h   Qc   Qh   
+Vish's book size: 4
+Vish's book: 10s   10d   3s   3d   
+Andy's hand size: 8
+Andy's hand: Jd   9h   2d   7h   10h   Ks   6s   Js   
+Vish's hand size: 7
+Vish's hand: Kd   4c   9c   Ah   7d   3c   8s   
+End of Andys, turn
+
+Andy is checking for pairs
+6 handsize
+Andy asks - Do you have any Sevens
+Vish says - Yes! Here you go
+Andy books the 7
+9h   2d   10h   Ks   6s   
+Andy's book size: 8
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   
+Vish's book size: 4
+Vish's book: 10s   10d   3s   3d   
+Andy's hand size: 5
+Andy's hand: 9h   2d   10h   Ks   6s   
+Vish's hand size: 6
+Vish's hand: Kd   4c   9c   Ah   3c   8s   
+End of Andys, turn
+
+Vish is checking for pairs
+6 handsize
+Vish asks - Do you have any Threes
+Andy says -  GO FISH 
+Andy's book size: 8
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   
+Vish's book size: 4
+Vish's book: 10s   10d   3s   3d   
+Andy's hand size: 5
+Andy's hand: 9h   2d   10h   Ks   6s   
+Vish's hand size: 7
+Vish's hand: Kd   4c   9c   Ah   3c   8s   9d   
+End of Andys, turn
+
+Andy is checking for pairs
+5 handsize
+Andy asks - Do you have any Tens
+Vish says -  GO FISH 
+Andy's book size: 8
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   
+Vish's book size: 4
+Vish's book: 10s   10d   3s   3d   
+Andy's hand size: 6
+Andy's hand: 9h   2d   10h   Ks   6s   6d   
+Vish's hand size: 7
+Vish's hand: Kd   4c   9c   Ah   3c   8s   9d   
+End of Andys, turn
+
+Vish is checking for pairs
+5 handsize
+Vish asks - Do you have any Threes
+Andy says -  GO FISH 
+Andy's book size: 8
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   
+Vish's book size: 6
+Vish's book: 10s   10d   3s   3d   9c   9d   
+Andy's hand size: 6
+Andy's hand: 9h   2d   10h   Ks   6s   6d   
+Vish's hand size: 6
+Vish's hand: Kd   4c   Ah   3c   8s   8h   
+End of Andys, turn
+
+Andy is checking for pairs
+4 handsize
+Andy asks - Do you have any Kings
+Vish says - Yes! Here you go
+Andy books the 13
+9h   2d   10h   
+Andy's book size: 12
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   
+Vish's book size: 6
+Vish's book: 10s   10d   3s   3d   9c   9d   
+Andy's hand size: 3
+Andy's hand: 9h   2d   10h   
+Vish's hand size: 5
+Vish's hand: 4c   Ah   3c   8s   8h   
+End of Andys, turn
+
+Vish is checking for pairs
+3 handsize
+Vish asks - Do you have any Fours
+Andy says -  GO FISH 
+Andy's book size: 12
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   
+Vish's book size: 8
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   
+Andy's hand size: 3
+Andy's hand: 9h   2d   10h   
+Vish's hand size: 4
+Vish's hand: 4c   Ah   3c   Ad   
+End of Andys, turn
+
+Andy is checking for pairs
+3 handsize
+Andy asks - Do you have any Tens
+Vish says -  GO FISH 
+Andy's book size: 12
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   
+Vish's book size: 8
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   
+Andy's hand size: 4
+Andy's hand: 9h   2d   10h   7s   
+Vish's hand size: 4
+Vish's hand: 4c   Ah   3c   Ad   
+End of Andys, turn
+
+Vish is checking for pairs
+2 handsize
+Vish asks - Do you have any Threes
+Andy says -  GO FISH 
+Andy's book size: 12
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   
+Vish's book size: 10
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   
+Andy's hand size: 4
+Andy's hand: 9h   2d   10h   7s   
+Vish's hand size: 3
+Vish's hand: 4c   3c   Qs   
+End of Andys, turn
+
+Andy is checking for pairs
+4 handsize
+Andy asks - Do you have any Twos
+Vish says -  GO FISH 
+Andy's book size: 12
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   
+Vish's book size: 10
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   
+Andy's hand size: 5
+Andy's hand: 9h   2d   10h   7s   2s   
+Vish's hand size: 3
+Vish's hand: 4c   3c   Qs   
+End of Andys, turn
+
+Vish is checking for pairs
+3 handsize
+Vish asks - Do you have any Threes
+Andy says -  GO FISH 
+Andy's book size: 12
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   
+Vish's book size: 10
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   
+Andy's hand size: 5
+Andy's hand: 9h   2d   10h   7s   2s   
+Vish's hand size: 4
+Vish's hand: 4c   3c   Qs   Kh   
+End of Andys, turn
+
+Andy is checking for pairs
+3 handsize
+Andy asks - Do you have any Nines
+Vish says -  GO FISH 
+Andy's book size: 14
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   
+Vish's book size: 10
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   
+Andy's hand size: 4
+Andy's hand: 9h   10h   7s   2h   
+Vish's hand size: 4
+Vish's hand: 4c   3c   Qs   Kh   
+End of Andys, turn
+
+Vish is checking for pairs
+4 handsize
+Vish asks - Do you have any Fours
+Andy says -  GO FISH 
+Andy's book size: 14
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   
+Vish's book size: 10
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   
+Andy's hand size: 4
+Andy's hand: 9h   10h   7s   2h   
+Vish's hand size: 5
+Vish's hand: 4c   3c   Qs   Kh   10c   
+End of Andys, turn
+
+Andy is checking for pairs
+4 handsize
+Andy asks - Do you have any Sevens
+Vish says -  GO FISH 
+Andy's book size: 14
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   
+Vish's book size: 10
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   
+Andy's hand size: 5
+Andy's hand: 9h   10h   7s   2h   4d   
+Vish's hand size: 5
+Vish's hand: 4c   3c   Qs   Kh   10c   
+End of Andys, turn
+
+Vish is checking for pairs
+5 handsize
+Vish asks - Do you have any Queens
+Andy says -  GO FISH 
+Andy's book size: 14
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   
+Vish's book size: 10
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   
+Andy's hand size: 5
+Andy's hand: 9h   10h   7s   2h   4d   
+Vish's hand size: 6
+Vish's hand: 4c   3c   Qs   Kh   10c   5s   
+End of Andys, turn
+
+Andy is checking for pairs
+5 handsize
+Andy asks - Do you have any Twos
+Vish says -  GO FISH 
+Andy's book size: 14
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   
+Vish's book size: 10
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   
+Andy's hand size: 6
+Andy's hand: 9h   10h   7s   2h   4d   As   
+Vish's hand size: 6
+Vish's hand: 4c   3c   Qs   Kh   10c   5s   
+End of Andys, turn
+
+Vish is checking for pairs
+6 handsize
+Vish asks - Do you have any Fives
+Andy says -  GO FISH 
+Andy's book size: 14
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   
+Vish's book size: 10
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   
+Andy's hand size: 6
+Andy's hand: 9h   10h   7s   2h   4d   As   
+Vish's hand size: 7
+Vish's hand: 4c   3c   Qs   Kh   10c   5s   Qd   
+End of Andys, turn
+
+Andy is checking for pairs
+6 handsize
+Andy asks - Do you have any Sevens
+Vish says -  GO FISH 
+Andy's book size: 14
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   
+Vish's book size: 10
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   
+Andy's hand size: 7
+Andy's hand: 9h   10h   7s   2h   4d   As   3h   
+Vish's hand size: 7
+Vish's hand: 4c   3c   Qs   Kh   10c   5s   Qd   
+End of Andys, turn
+
+Vish is checking for pairs
+5 handsize
+Vish asks - Do you have any Kings
+Andy says -  GO FISH 
+Andy's book size: 14
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   
+Vish's book size: 12
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   
+Andy's hand size: 7
+Andy's hand: 9h   10h   7s   2h   4d   As   3h   
+Vish's hand size: 6
+Vish's hand: 4c   3c   Kh   10c   5s   Kc   
+End of Andys, turn
+
+Andy is checking for pairs
+7 handsize
+Andy asks - Do you have any Nines
+Vish says -  GO FISH 
+Andy's book size: 14
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   
+Vish's book size: 12
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   
+Andy's hand size: 8
+Andy's hand: 9h   10h   7s   2h   4d   As   3h   2c   
+Vish's hand size: 6
+Vish's hand: 4c   3c   Kh   10c   5s   Kc   
+End of Andys, turn
+
+Vish is checking for pairs
+4 handsize
+Vish asks - Do you have any Tens
+Andy says - Yes! Here you go
+Vish books the 10
+4c   3c   5s   
+Andy's book size: 14
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   
+Vish's book size: 16
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   
+Andy's hand size: 7
+Andy's hand: 9h   7s   2h   4d   As   3h   2c   
+Vish's hand size: 3
+Vish's hand: 4c   3c   5s   
+End of Andys, turn
+
+Andy is checking for pairs
+5 handsize
+Andy asks - Do you have any Aces
+Vish says -  GO FISH 
+Andy's book size: 16
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   2h   2c   
+Vish's book size: 16
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   
+Andy's hand size: 6
+Andy's hand: 9h   7s   4d   As   3h   4h   
+Vish's hand size: 3
+Vish's hand: 4c   3c   5s   
+End of Andys, turn
+
+Vish is checking for pairs
+3 handsize
+Vish asks - Do you have any Fours
+Andy says - Yes! Here you go
+Vish books the 4
+3c   5s   4d   
+Andy's book size: 16
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   2h   2c   
+Vish's book size: 18
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   4c   4h   
+Andy's hand size: 4
+Andy's hand: 9h   7s   As   3h   
+Vish's hand size: 3
+Vish's hand: 3c   5s   4d   
+End of Andys, turn
+
+Andy is checking for pairs
+4 handsize
+Andy asks - Do you have any Nines
+Vish says -  GO FISH 
+Andy's book size: 16
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   2h   2c   
+Vish's book size: 18
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   4c   4h   
+Andy's hand size: 5
+Andy's hand: 9h   7s   As   3h   6h   
+Vish's hand size: 3
+Vish's hand: 3c   5s   4d   
+End of Andys, turn
+
+Vish is checking for pairs
+3 handsize
+Vish asks - Do you have any Fours
+Andy says -  GO FISH 
+Andy's book size: 16
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   2h   2c   
+Vish's book size: 18
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   4c   4h   
+Andy's hand size: 5
+Andy's hand: 9h   7s   As   3h   6h   
+Vish's hand size: 4
+Vish's hand: 3c   5s   4d   Ac   
+End of Andys, turn
+
+Andy is checking for pairs
+5 handsize
+Andy asks - Do you have any Threes
+Vish says - Yes! Here you go
+Andy books the 3
+9h   7s   As   6h   
+Andy's book size: 18
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   2h   2c   3h   3c   
+Vish's book size: 18
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   4c   4h   
+Andy's hand size: 4
+Andy's hand: 9h   7s   As   6h   
+Vish's hand size: 3
+Vish's hand: 5s   4d   Ac   
+End of Andys, turn
+
+Vish is checking for pairs
+3 handsize
+Vish asks - Do you have any Aces
+Andy says - Yes! Here you go
+Vish books the 1
+5s   4d   
+Andy's book size: 18
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   2h   2c   3h   3c   
+Vish's book size: 20
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   4c   4h   Ac   As   
+Andy's hand size: 3
+Andy's hand: 9h   7s   6h   
+Vish's hand size: 2
+Vish's hand: 5s   4d   
+End of Andys, turn
+
+Andy is checking for pairs
+3 handsize
+Andy asks - Do you have any Nines
+Vish says -  GO FISH 
+Andy's book size: 18
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   2h   2c   3h   3c   
+Vish's book size: 20
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   4c   4h   Ac   As   
+Andy's hand size: 4
+Andy's hand: 9h   7s   6h   6c   
+Vish's hand size: 2
+Vish's hand: 5s   4d   
+End of Andys, turn
+
+Vish is checking for pairs
+2 handsize
+Vish asks - Do you have any Fives
+Andy says -  GO FISH 
+Andy's book size: 18
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   2h   2c   3h   3c   
+Vish's book size: 20
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   4c   4h   Ac   As   
+Andy's hand size: 4
+Andy's hand: 9h   7s   6h   6c   
+Vish's hand size: 3
+Vish's hand: 5s   4d   9s   
+End of Andys, turn
+
+Andy is checking for pairs
+2 handsize
+Andy asks - Do you have any Sevens
+Vish says -  GO FISH 
+Andy's book size: 20
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   2h   2c   3h   3c   6h   6c   
+Vish's book size: 20
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   4c   4h   Ac   As   
+Andy's hand size: 3
+Andy's hand: 9h   7s   Jh   
+Vish's hand size: 3
+Vish's hand: 5s   4d   9s   
+End of Andys, turn
+
+Vish is checking for pairs
+3 handsize
+Vish asks - Do you have any Fours
+Andy says -  GO FISH 
+Andy's book size: 20
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   2h   2c   3h   3c   6h   6c   
+Vish's book size: 20
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   4c   4h   Ac   As   
+Andy's hand size: 3
+Andy's hand: 9h   7s   Jh   
+Vish's hand size: 4
+Vish's hand: 5s   4d   9s   7c   
+End of Andys, turn
+
+Andy is checking for pairs
+3 handsize
+Andy asks - Do you have any Sevens
+Vish says - Yes! Here you go
+Andy books the 7
+9h   Jh   
+Andy's book size: 22
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   2h   2c   3h   3c   6h   6c   7s   7c   
+Vish's book size: 20
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   4c   4h   Ac   As   
+Andy's hand size: 2
+Andy's hand: 9h   Jh   
+Vish's hand size: 3
+Vish's hand: 5s   4d   9s   
+End of Andys, turn
+
+Vish is checking for pairs
+3 handsize
+Vish asks - Do you have any Nines
+Andy says - Yes! Here you go
+Vish books the 9
+5s   4d   
+Andy's book size: 22
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   2h   2c   3h   3c   6h   6c   7s   7c   
+Vish's book size: 22
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   4c   4h   Ac   As   9s   9h   
+Andy's hand size: 1
+Andy's hand: Jh   
+Vish's hand size: 2
+Vish's hand: 5s   4d   
+End of Andys, turn
+
+Andy is checking for pairs
+1 handsize
+Andy asks - Do you have any Jacks
+Vish says -  GO FISH 
+Andy's book size: 22
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   2h   2c   3h   3c   6h   6c   7s   7c   
+Vish's book size: 22
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   4c   4h   Ac   As   9s   9h   
+Andy's hand size: 2
+Andy's hand: Jh   5d   
+Vish's hand size: 2
+Vish's hand: 5s   4d   
+End of Andys, turn
+
+Vish is checking for pairs
+2 handsize
+Vish asks - Do you have any Fives
+Andy says - Yes! Here you go
+Vish books the 5
+4d   
+Andy's book size: 22
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   2h   2c   3h   3c   6h   6c   7s   7c   
+Vish's book size: 24
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   4c   4h   Ac   As   9s   9h   5s   5d   
+Andy's hand size: 1
+Andy's hand: Jh   
+Vish's hand size: 1
+Vish's hand: 4d   
+End of Andys, turn
+
+Andy is checking for pairs
+1 handsize
+Andy asks - Do you have any Jacks
+Vish says -  GO FISH 
+Andy's book size: 22
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   2h   2c   3h   3c   6h   6c   7s   7c   
+Vish's book size: 24
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   4c   4h   Ac   As   9s   9h   5s   5d   
+Andy's hand size: 2
+Andy's hand: Jh   4s   
+Vish's hand size: 1
+Vish's hand: 4d   
+End of Andys, turn
+
+Vish is checking for pairs
+1 handsize
+Vish asks - Do you have any Fours
+Andy says - Yes! Here you go
+Vish books the 4
+
+Andy's book size: 22
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   2h   2c   3h   3c   6h   6c   7s   7c   
+Vish's book size: 26
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   4c   4h   Ac   As   9s   9h   5s   5d   4d   4s   
+Andy's hand size: 1
+Andy's hand: Jh   
+Vish's hand size: 0
+Vish's hand: 
+End of Andys, turn
+
+Andy is checking for pairs
+1 handsize
+Andy asks - Do you have any Jacks
+Vish says -  GO FISH 
+Andy's book size: 22
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   2h   2c   3h   3c   6h   6c   7s   7c   
+Vish's book size: 26
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   4c   4h   Ac   As   9s   9h   5s   5d   4d   4s   
+Andy's hand size: 2
+Andy's hand: Jh   8c   
+Vish's hand size: 0
+Vish's hand: 
+End of Andys, turn
+
+Vish is checking for pairs
+No Cards in Hand -  Go Fish
+Andy's book size: 22
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   2h   2c   3h   3c   6h   6c   7s   7c   
+Vish's book size: 26
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   4c   4h   Ac   As   9s   9h   5s   5d   4d   4s   
+Andy's hand size: 2
+Andy's hand: Jh   8c   
+Vish's hand size: 1
+Vish's hand: 8d   
+End of Andys, turn
+
+Andy is checking for pairs
+2 handsize
+Andy asks - Do you have any Eights
+Vish says - Yes! Here you go
+Andy books the 8
+Jh   
+Andy's book size: 24
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   2h   2c   3h   3c   6h   6c   7s   7c   8c   8d   
+Vish's book size: 26
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   4c   4h   Ac   As   9s   9h   5s   5d   4d   4s   
+Andy's hand size: 1
+Andy's hand: Jh   
+Vish's hand size: 0
+Vish's hand: 
+End of Andys, turn
+
+Vish is checking for pairs
+No Cards in Hand -  Go Fish
+Andy's book size: 24
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   2h   2c   3h   3c   6h   6c   7s   7c   8c   8d   
+Vish's book size: 26
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   4c   4h   Ac   As   9s   9h   5s   5d   4d   4s   
+Andy's hand size: 1
+Andy's hand: Jh   
+Vish's hand size: 1
+Vish's hand: Jc   
+End of Andys, turn
+
+Andy is checking for pairs
+1 handsize
+Andy asks - Do you have any Jacks
+Vish says - Yes! Here you go
+Andy books the 11
+
+Andy's book size: 26
+Andy's book: 5c   5h   Qc   Qh   Jd   Js   7h   7d   6s   6d   Ks   Kd   2d   2s   2h   2c   3h   3c   6h   6c   7s   7c   8c   8d   Jh   Jc   
+Vish's book size: 26
+Vish's book: 10s   10d   3s   3d   9c   9d   8s   8h   Ah   Ad   Qs   Qd   Kh   Kc   10c   10h   4c   4h   Ac   As   9s   9h   5s   5d   4d   4s   
+Andy's hand size: 0
+Andy's hand: 
+Vish's hand size: 0
+Vish's hand: 
+End of Andys, turn
+
+THE GAME IS OVER
+TIE GAME

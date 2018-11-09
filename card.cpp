@@ -98,11 +98,15 @@ string Card::rankString(int r) const {
 }
 
 bool Card::operator==(const Card &rhs) const {
-    if (myRank == rhs.getRank()) return true;
+    if (this->toString() == rhs.toString()) return true;
     return false;
 }
 
 bool Card::operator!=(const Card &rhs) const {
     if (myRank == rhs.getRank()) return false;
     return true;
+}
+
+Card::~Card() {
+    
 }
